@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+:root {
+  --mainBlue: #1B7387;
+  --mainDark: #232323;
+  --mainLight: #f9f9f9;
+  --secGreen2: #8fe5a2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mainBlue: #1B7387;
+    --mainDark: #232323;
+    --mainLight: #f9f9f9;
+    --secGreen2: #8fe5a2;
+  }
+}
+
+/* body {
+  background: linear-gradient(
+    to bottom,
+    var(--mainLight),
+    80%,
+    var(--mainBlue)
+  );
+} */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.custom-stroke {
+  @apply stroke-mainBlue;
+}
+
+html {
+  scroll-padding-top: 120px; /* Adjust this value to match your header's height */
+}
