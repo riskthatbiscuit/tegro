@@ -57,7 +57,7 @@ export default function Values() {
             ))}
           </dl>
           <p className="text-b2_custom mt-8">
-            Located out of Sydney's Salesforce Tower, the Waterfall team works
+            Located out of Sydney's Salesforce Tower, the Tegro team works
             out of Australia's largest dedicated climate tech hub alongside
             leading climate-aligned businesses.
           </p>

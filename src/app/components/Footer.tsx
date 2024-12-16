@@ -29,7 +29,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-7xl justify-between overflow-hidden ">
         {/* Left */}
         <div className="hidden lg:flex">
-          <img src="./Primary_logo_white.png" className="h-40 pr-16"></img>
+          <img src="./TegroLight.svg" className="h-40 pr-16"></img>
           <nav className="flex h-40 flex-col flex-wrap " aria-label="Footer">
             <a
               className="h-8 px-4 py-6 text-left text-b3_custom font-bold text-secGray1"
@@ -90,7 +90,7 @@ export default function Footer() {
             </Modal>
           )}
           <p className="text-b4_custom">
-            Waterfall acknowledges the Traditional Owners of the lands that we
+            Tegro acknowledges the Traditional Owners of the lands that we
             live and work on, and pay our respects to all First Nations people
             and Elders past, present and emerging.
           </p>

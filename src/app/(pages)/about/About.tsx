@@ -6,7 +6,7 @@ export default function AboutSection() {
       <div className="mx-auto px-6 lg:pl-24">
         <div className="">
           <p className="text-lg w-2/3mt-4 text-secmainDark text-b3_custom leading-6 text-mainDark md:text-b2_custom lg:text-b1_custom">
-            Waterfall's leadership brings decades of expertise and a network around the world, connecting market leading solutions to industry across the Asia Pacific.
+            Tegro's leadership brings decades of expertise and a network around the world, connecting market leading solutions to industry across the Asia Pacific.
           </p>
         </div>
       </div>

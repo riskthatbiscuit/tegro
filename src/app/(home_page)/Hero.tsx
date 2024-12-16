@@ -27,7 +27,7 @@ export default function Hero() {
                 industrial evolution
               </h1>
               <h4 className="font-text-secGray3 relative mt-6 text-h6_custom leading-8 sm:max-w-md md:max-w-none md:text-h5_custom">
-                Waterfall is a strategic advisory and investment firm that works with industrial leaders to safely and securely execute their sustainable transformation.
+                Tegro is a strategic advisory and investment firm that works with industrial leaders to safely and securely execute their sustainable transformation.
               </h4>
               <div className="h-full py-8">
                 <a

@@ -200,7 +200,7 @@ export default function ContactUs({prefillMessage=""}) {
                     className="text-b2_custom hover:text-gray-900"
                     href="mailto:hello@waterfall.finance"
                   >
-                    hello@waterfall.finance
+                    hello@tegro.finance
                   </a>
                 </dd>
               </div>

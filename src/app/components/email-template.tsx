@@ -39,7 +39,7 @@ export const EmailTemplate: React.FC<EmailTemplateProps> = ({
           borderRadius: '8px',
         }}
       >
-        <h2 style={{ margin: '0 0 10px 0', fontSize: '24px' }}>WATERFALL</h2>
+        <h2 style={{ margin: '0 0 10px 0', fontSize: '24px' }}>TEGRO</h2>
         <p style={{ margin: '0', fontSize: '18px' }}>
           STREAMLINING CLIMATE FINANCE
         </p>
@@ -52,7 +52,7 @@ export const EmailTemplate: React.FC<EmailTemplateProps> = ({
           marginTop: '20px',
         }}
       >
-        Hi Waterfall Team!
+        Hi Tegro Team!
       </h1>
       <p style={{ fontSize: '16px', marginTop: '10px' }}>
         We've received a new {type} request from the website.
