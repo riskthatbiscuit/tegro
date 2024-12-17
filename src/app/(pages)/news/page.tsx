@@ -65,7 +65,6 @@ export default function NewsPage() {
         />
       </div>
     </div>
-    <Hero />
     </div>
   );
 }
