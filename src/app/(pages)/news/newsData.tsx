@@ -144,6 +144,6 @@ export const newsArticles = [
       'Tegro Commodity Partners supports leading Australian carbon developer to acquire Agtech platform',
     blurb:
       'Discover how Tegro Commodity Partners helped acquire a leading Agtech platform.',
-    link: '/case-studies#acquisition-of-agtech-platform',
+    link: '/about#AcquisitionOfAgtechPlatform',
   },
 ];
