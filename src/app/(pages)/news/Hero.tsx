@@ -17,23 +17,9 @@ export default function Hero() {
             <h1
               className={`text-Maindark font-palanquinDark text-h3_custom tracking-tight md:text-h2_custom `}
             >
-              Tegro Commodity Partners supports leading Australian carbon
-              developer to acquire Agtech platform
+              Stay updated with the latest insights and developments from Tegro
+              Commodity Partners.
             </h1>
-            <div
-              ref={ref1}
-              className={`mx-auto mt-2 flex max-w-5xl flex-col items-center rounded-lg bg-secBlue1 ${isVisible1 ? 'animate-fade animate-duration-[4000ms] animate-once animate-ease-out' : ''}`}
-            >
-              <p className="m-4 max-w-3xl px-4 text-b2_custom lg:my-8 lg:text-b1_custom ">
-                Waterfall&#39;s unique skill set can provide you with access to
-                market leading early stage innovations, institutional M&A,
-                sustainable finance and impact investment. We enable high
-                growth, capital intensive and essential industries such as oil
-                and gas, aviation, maritive, digital infrastructure and
-                manufacturing to transition effectively.
-              </p>
-            </div>
-            <div className="mt-10 flex items-center justify-center gap-x-6"></div>
           </div>
         </div>
       </div>

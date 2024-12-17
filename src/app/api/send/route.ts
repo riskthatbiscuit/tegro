@@ -8,16 +8,20 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(request: NextRequest, response: NextResponse) {
   if (request.method === 'POST') {
     const data = await request.json();
-    const { type } = data;
+    const { type, email, resource } = data;
 
     try {
       const sendEmail = await resend.emails.send({
-        from: 'Waterfall Finance <alex@waterfall.finance>',
-        to: ['alex@waterfall.finance'],
+        from: 'Tegro Partners <alex@tegro.partners>',
+        to: ['alex@tegro.partners'],
         // to: ['caseymcgrath1000@gmail.com', 'alex@waterfall.finance'],
-        subject: `New ${type} request`,
-        text: 'This is a plain text version of the email.',
-        react: EmailTemplate(data),
+        subject: `New ${type} request for ${resource}`, // Include resource in the subject
+        text: `Email: ${email}\nResource: ${resource}\nType: ${type}`,
+        react: EmailTemplate({
+          email,
+          resource,
+          type,
+        }),
       });
 
       const confirmation = { success: true, message: 'Email sent' };

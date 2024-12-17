@@ -19,7 +19,7 @@ const team = [
 
 export default function Team() {
   return (
-    <div className="mx-auto max-w-7xl px-6 py-4 lg:mb-24 mb-4 pt-8 ">
+    <div className="mx-auto max-w-7xl px-6 py-4 mb-4 pt-8">
       <ul
         role="list"
         className="mx-auto flex flex-col gap-x-8 items-center lg:mx-auto lg:justify-center lg:max-w-none lg:flex-row "

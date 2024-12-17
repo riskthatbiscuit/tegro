@@ -56,7 +56,7 @@ export default function Footer() {
           <h2 className="font-palanquinDark text-h4_custom">Stay informed</h2>
           <form
             className="w-full pb-4"
-            onSubmit={(e) => handleSubscribe(e, setEmail, setSubscribeModal)}
+            onSubmit={(e) => handleSubscribe(e, setEmail, setSubscribeModal, 'Subscription')}
           >
             <div className="flex w-full gap-x-4 ">
               <label htmlFor="email-address" className="sr-only">
