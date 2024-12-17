@@ -21,7 +21,7 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({
       <div className="p-6">
         <h3 className="text-lg font-bold text-gray-800">{headline}</h3>
         <p className="mt-2 text-gray-600">{blurb}</p>
-        <span className="text-xs mt-4 inline-block rounded bg-blue-100 px-2.5 py-0.5 font-medium text-blue-800">
+        <span className="text-b3_custom mt-4 inline-block rounded bg-mainDark px-2.5 py-0.5 text-white">
           {filters}
         </span>
       </div>

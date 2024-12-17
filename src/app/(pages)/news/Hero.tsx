@@ -15,7 +15,7 @@ export default function Hero() {
               News
             </h1>
             <h1
-              className={`text-Maindark font-palanquinDark text-h3_custom tracking-tight md:text-h2_custom `}
+              className={`text-Maindark font-palanquinDark text-h4_custom tracking-tight md:text-h3_custom `}
             >
               Stay updated with the latest insights and developments from Tegro
               Commodity Partners.

@@ -81,13 +81,10 @@ export default function Header() {
           </div>
         </div>
       </nav>
-      <div className="bg-yellow-300 py-2 text-center">
+      <div className="bg-mainDark py-2 text-center">
         <div className="flex items-center justify-center space-x-4">
-          <p className="text-sm text-mainDark">
+          <a href="/news" className="text-sm text-white">
             Waterfall Finance is now Tegro Commodity Partners
-          </p>
-          <a href="/news" className="text-sm text-mainBlue hover:underline">
-            Find out more
           </a>
         </div>
       </div>

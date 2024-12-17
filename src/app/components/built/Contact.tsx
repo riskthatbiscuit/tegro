@@ -26,7 +26,7 @@ export default function Contact({title=""}) {
           </p>
         </div>
         <form
-          onSubmit={(e) => handleSubscribe(e, setEmail, setSubscribeModal, 'Mailing List Request')}
+          onSubmit={(e) => handleSubscribe(e, setEmail, setSubscribeModal, 'Mailing_list')}
           className="w-full lg:col-span-6 lg:pt-2"
         >
           <div className="flex gap-x-4">

@@ -16,7 +16,7 @@ const caseStudies: CaseStudy[] = [
     blurb:
       'Tegro developed a commercialization plan for a modular nuclear battery technology business. We developed pathways to market based on regulatory, geographic and cashflow opportunities, empowering our client to make an informed decision on where to undertake scaling activities and attract investment.',
     image:
-      'https://netorgft17748187.sharepoint.com/:i:/s/TegroSharedrive/ER87YKx3ijNGg9chke7FT70B3_Hk7F457mnL5lWhWBw6Gg?e=OESZPr',
+      './caseStudies/Commercialization Plan for Modular Nuclear Reactor.jpg',
     filters: 'Transactions',
   },
   {
@@ -24,8 +24,7 @@ const caseStudies: CaseStudy[] = [
     headline: 'Carbon Sequestration Market Due Diligence Report',
     blurb:
       'Tegro delivered a market report on the expected carbon sequestration rates expected for a range of management practices that deliver Australian Carbon Credit Units (ACCUs). This report was used to support sequestration potential for an Australian carbon project developer and support ACCU generation forecasts.',
-    image:
-      'https://netorgft17748187.sharepoint.com/:i:/s/TegroSharedrive/EUHFKyyrXERKmGHxMAfi4k4Bs4UtWHPCNQn9gQtUssf_eA?e=Onazsw',
+    image: './caseStudies/Carbon Sequestration Market Due Diligence Report.jpg',
     filters: 'Investment support',
   },
   {
@@ -34,8 +33,7 @@ const caseStudies: CaseStudy[] = [
       'Electric vehicle infrastructure financial model and funding negotiation',
     blurb:
       'Tegro built a project finance model for an electric vehicle infrastructure business and supported the business to engage with financiers. The development of this model enabled rapid advancement in financing discussions and improved understanding of the business.',
-    image:
-      'https://netorgft17748187.sharepoint.com/:i:/s/TegroSharedrive/EQ_f-zv4atpHiZIB2mHuFyoB0HE02xJhxmoc3iu1bvjs_Q?e=tvyiZk',
+    image: './caseStudies/Project Financing and scaling in North America.jpg',
     filters: 'Transactions',
   },
   {
@@ -43,8 +41,7 @@ const caseStudies: CaseStudy[] = [
     headline: 'Carbon-linked Technology Adoption Facility',
     blurb:
       'Tegro designed an innovative first in market debt structure that funds deployment of smart technology direct to farmers at no upfront cost, helping them reduce emissions and improve sustainable production. Costs are recouped via future carbon credits linked to sustainable management.',
-    image:
-      'https://netorgft17748187.sharepoint.com/:i:/s/TegroSharedrive/EZV_5YCIb2dCpXYCxsZnnsEBvQFDZeuP9cH-gSZ9wD2kOA?e=bTAYFN',
+    image: './caseStudies/Carbon-linked Technology Adoption Facility.jpg',
     filters: 'Specialized Finance',
   },
   {
@@ -52,8 +49,7 @@ const caseStudies: CaseStudy[] = [
     headline: 'Acquisition of Agtech Platform',
     blurb:
       'Tegro acted as the lead buy-side financial advisor for a carbon development company to rapidly develop their technology capabilities and offerings through the acquisition of third party technology assets. Tegro led the target identification, due diligence and negotiations to successfully acquire the assets.',
-    image:
-      'https://netorgft17748187.sharepoint.com/:i:/s/TegroSharedrive/EV28jil9VphCqaJ16jW2WpcBHJ7p2Hy4lusGR4IZOQr0lA?e=eLAq6H',
+    image: './caseStudies/Acquisition of Agtech Platform.jpg',
     filters: 'Transactions',
   },
   {
@@ -63,7 +59,7 @@ const caseStudies: CaseStudy[] = [
     blurb:
       'Tegro is designing market-driven risk transfer tools that allow better risk allocation between government, industry bodies, private markets and/or philanthropic capital. By introducing market-ready risk transfer instruments, such as guarantee facilities, insurance products or ‘sleeved’ offtake/purchase agreements, Tegro aims to accelerate funding velocity into climate solutions and better optimise investor returns.',
     image:
-      'https://netorgft17748187.sharepoint.com/:i:/s/TegroSharedrive/EdG1p6zShExDtoid4YbhrR4BMYEzk23Wjt-sMCug0KJcHA?e=Ib7yab',
+      './caseStudies/Leveraging Risk Transfer Instruments To Promote Innovation Investment.jpg',
     filters: 'Specialized Finance',
   },
   {
@@ -73,7 +69,7 @@ const caseStudies: CaseStudy[] = [
     blurb:
       'Tegro is designing an off the shelf modular asset development model for climate technology companies by leveraging structures traditionally reserved for large-scale infrastructure projects. This will allow creation of a packaged, template solution for innovation companies to more effectively scale their operations and access capital.',
     image:
-      'https://netorgft17748187.sharepoint.com/:i:/s/TegroSharedrive/Ef7qJsOuzBBJmsCoY2pCVt4BJZFe7QYj66eMusckn3ZEcQ?e=x82PeM',
+      './caseStudies/Commercialization Package to Deploy Funding into Assets, Share Risk and Improve Contracting Outcomes.jpg',
     filters: 'Specialized Finance',
   },
   {
@@ -83,7 +79,7 @@ const caseStudies: CaseStudy[] = [
     blurb:
       'Tegro is developing a blended financing package to de-risk and catalyse capital into the nascent SAF industry in Southeast Asia. By bringing together a specialised debt facility, insurance wrap and sleeved offtake structure the vehicle mobilizes crucial funding to de-risk SAF projects enabling stable pricing and supply to support commercial investment and scale.',
     image:
-      'https://netorgft17748187.sharepoint.com/:i:/s/TegroSharedrive/EfaiZAub97FBsB3ZxT9G5gQBtmkE9t3bQM5eh-OsHOxt5g?e=SNgZux',
+      './caseStudies/Mobilizing Concessional and Private Capital to Support the Sustainable Aviation Fuel (SAF) Industry.jpg',
     filters: 'Specialized Finance',
   },
 ];

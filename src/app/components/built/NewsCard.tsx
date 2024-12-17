@@ -14,8 +14,8 @@ export default function NewsCard({
   children,
 }: NewsCardProps) {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="rounded-lg bg-white p-6 shadow-lg">
+    <div className="container w-full px-4 py-2 ">
+      <div className="rounded-lg bg-white p-6 shadow-2xl">
         <h2 className="text-h3_custom font-bold text-mainBlue">{headline}</h2>
         <p className="mt-2 text-b2_custom">{blurb}</p>
         {link && (
