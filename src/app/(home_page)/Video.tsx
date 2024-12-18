@@ -15,7 +15,7 @@ export default function Video() {
       </div>
       <div className="mt-4 flex flex-col items-end justify-center gap-4 rounded-md bg-secBlue2 bg-opacity-80 p-4 text-right lg:mt-0 lg:w-2/5">
         <p className="text-b3_custom md:text-b2_custom lg:text-b1_custom">
-          The energy transition is a commodity problem. Our mission is to accelerate the transition of hand-to-abate sectors towards a sustainable future while enhancing strategic resilience and supply chain security.
+          The energy transition is a commodity problem. Our mission is to accelerate the transition of hard-to-abate sectors towards a sustainable future while enhancing strategic resilience and supply chain security.
         </p>
         <a
           onClick={() => setCurrentModal('Contact Us')}

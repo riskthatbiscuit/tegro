@@ -3,7 +3,7 @@ export const newsArticles = [
     headline: '2024 Year in Review',
     blurb:
       'A comprehensive review of our year, focusing on milestones, challenges, and the way forward for climate innovation.',
-    content: `<p>At <strong>Waterfall</strong>, we firmly believe that finance is the engine driving the energy transition. Over the past year, we’ve worked tirelessly to improve transparency, create commercial pathways, and manage risk – all with the goal of making <em>bold ideas bankable</em> and scaling transformative climate solutions to new heights.</p> 
+    content: `<p>At <strong>Waterfall</strong>, we firmly believe that finance is the engine driving the energy transition. Over the past year, we’ve worked tirelessly to improve transparency, create commercial pathways, and manage risk – all with the goal of making bold ideas bankable and scaling transformative climate solutions to new heights.</p> 
 
   <p>To this end, Waterfall made significant strides, and I am proud of our team for pioneering efforts including:</p>
   <ul>
@@ -12,7 +12,7 @@ export const newsArticles = [
     <li><strong>- Alternative risk models:</strong> Combining financial and sustainability metrics to better assess the value and impact of transition projects.</li>
   </ul>
 
-  <p>We’ve learned valuable lessons about the perceived and actual complexities of finance, the <em>trust deficit</em> in established systems, and the need for a mindset shift in how deals are structured and capital is deployed across the entire climate ecosystem.</p>
+  <p>We’ve learned valuable lessons about the perceived and actual complexities of finance, the trust deficit< in established systems, and the need for a mindset shift in how deals are structured and capital is deployed across the entire climate ecosystem.</p>
 
   <p>None of this would have been possible without the continuous engagement from climate hardware companies, banks, public and private equity, lawyers, accountants, and insurance firms that have worked side-by-side with us and let us into their businesses and transactions. Thank you.</p>
   <br/>
@@ -20,7 +20,7 @@ export const newsArticles = [
   <strong>Reflecting on 2024</strong>
   <p>When we started addressing the financing gap for early-stage climate solutions, we expected to tackle micro-level challenges such as due diligence or risk assessment. </p>
   
-  <p>However, we discovered that larger macroeconomic questions - the right type of capital, the future of industrial decarbonization, and Asia-Pacific’s role in the global energy transition - were the dominant forces in need of solutions.</p>
+  <p>However, we discovered that larger macroeconomic questions - the right type of capital, the future of industrial decarbonization, and Asia Pacific’s role in the global energy transition - were the dominant forces in need of solutions.</p>
   <p>Let me unpack these further:</p>
   <br/>
 
@@ -37,7 +37,7 @@ export const newsArticles = [
   <em>What role needs to be played in accelerating industrial decarbonization in hard-to-abate sectors?</em>
   <p>Businesses globally have noticeably shifted their strategy to solutions that are measurable and cost-effective; moving from mere compliance to results-driven execution. This is leading to renewed scrutiny on technologies that are truly additional to emissions reductions while supporting corporate growth plans.  </p>
 
-  <p>The AI boom is evidence of this, with technology corporations driving massive funding flows into engineered carbon removals. The Asia-Pacific AI market, growing at over 40% annually, illustrates the scale of opportunity. This surge in technology adoption has ripple effects, from the expansion of data centres and increased electricity demand to the pressing need for 24/7 reliable clean energy. Tech companies are leading the way in a new wave of solutions- including nuclear power — valued for its reliability and zero emissions despite its higher costs.</p>
+  <p>The AI boom is evidence of this, with technology corporations driving massive funding flows into engineered carbon removals. The Asia Pacific AI market, growing at over 40% annually, illustrates the scale of opportunity. This surge in technology adoption has ripple effects, from the expansion of data centres and increased electricity demand to the pressing need for 24/7 reliable clean energy. Tech companies are leading the way in a new wave of solutions- including nuclear power — valued for its reliability and zero emissions despite its higher costs.</p>
   
   <p>We expect this to lead to fewer but better solutions scaling impact in the coming years. This may also undermine the case for more early-stage technology innovations and presage a shift back to large-scale, industrialised projects built on strategic partnerships.</p>
   <br/>
@@ -54,16 +54,16 @@ export const newsArticles = [
   <p>The answer lies in aligning our unique strengths with the pivotal macroeconomic questions that need solving to deliver the energy transition.</p>
   <br/>
 
-  <strong>Our strengths</strong>
+  <strong>Our strengths</strong><br/>
   
   <strong>Commodities expertise anchored in energy transition:</strong> 
-  <p>Our team’s extensive experience in commodities serves as a cornerstone. The metals, biomass, minerals, and molecules driving the energy transition require focused attention within the broader climate agenda. The Asia-Pacific region, with its sustained industrial and economic growth, continues to be a key area of engagement.</p>
+  <p>Our team’s extensive experience in commodities serves as a cornerstone. The metals, biomass, minerals, and molecules driving the energy transition require focused attention within the broader climate agenda. The Asia Pacific region, with its sustained industrial and economic growth, continues to be a key area of engagement.</p>
   <br/>
   <strong>Structured finance pioneers:</strong> 
   <p>As structured finance experts, we understand the critical importance of refining project contracts and offtake mechanisms to de-risk climate solutions. Our deep project finance knowledge equips us to scale impactful initiatives - building bigger and better solutions for the challenges ahead.</p>
   <br/>
   <strong>Specialised focus:</strong> 
-  <p>Over the past year, we’ve dedicated substantial resources to servicing both engineered and nature-based carbon solutions. While both areas remain essential to addressing the climate crisis, we will be <strong>concentrating our efforts on engineered solutions</strong>, where we can leverage our expertise to have a multiplier effect on the required learning curves and cost. By focusing here, we aim to deliver measurable results and drive capital into the technologies that can transform the carbon landscape at scale.</p>
+  <p>Over the past year, we’ve dedicated substantial resources to servicing both engineered and nature-based carbon solutions. While both areas remain essential to addressing the climate crisis, we will be concentrating our efforts on engineered solutions, where we can leverage our expertise to have a multiplier effect on the required learning curves and cost. By focusing here, we aim to deliver measurable results and drive capital into the technologies that can transform the carbon landscape at scale.</p>
   <br/>
   <strong>Building partnerships:</strong>
   <p>A fragmented landscape of climate solutions often leads to decision paralysis and delays progress. We see immense value in aggregation to create a higher-quality market – partnering to bring together the best technologies and most suitable users to build robust, scalable solutions over scattered initiatives. By creating a higher-quality market, we can streamline decision-making and maximize impact.</p>
@@ -81,12 +81,12 @@ export const newsArticles = [
   <br/>
 
 <p>
-  Tegro is dedicated to solving for hard-to-abate sectors including <strong>aviation, transport, metals, mining, chemicals, and fuels</strong>. By focusing on high-impact, scalable solutions, Tegro aims to:
+  Tegro is dedicated to solving for hard-to-abate sectors including aviation, transport, metals, mining, chemicals, and fuels. By focusing on high-impact, scalable solutions, Tegro aims to:
 </p>
 <ul>
-  <li>Accelerate industry-wide transformation through sustainable fuels, critical resources, and carbon markets.</li>
-  <li>Leverage Waterfall’s structured finance expertise to de-risk projects and drive investment.</li>
-  <li>Build sector-focused investment platforms and tools to de-risk and deploy capital more efficiently.</li>
+  <li><strong>- Accelerate industry-wide transformation</strong> through sustainable fuels, critical resources, and carbon markets.</li>
+  <li><strong>- Leverage Waterfall’s structured finance expertise</strong> to de-risk projects and drive investment.</li>
+  <li><strong>- Build sector-focused investment platforms and tools</strong> to de-risk and deploy capital more efficiently.</li>
 </ul>
 <br/>
 
@@ -99,7 +99,7 @@ export const newsArticles = [
 </p>
 <br/>
 
-<strong>A call to collaborate:</strong>
+<strong>A call to collaborate</strong>
 <p>
   As we step into 2025, we are excited to expand our partnerships across the APAC region, including Singapore, Japan, Hong Kong, and Malaysia, with organizations and investors tackling decarbonization challenges in established industries.
 </p>
@@ -126,7 +126,7 @@ export const newsArticles = [
 </p>
 
 <p>
-  <strong>Warm regards,</strong><br/>
+Warm regards,<br/>
   Joe
 </p>`,
 
@@ -134,8 +134,9 @@ export const newsArticles = [
   },
   {
     headline: 'APAC SAF Market Map',
-    blurb:
-      'Download the APAC SAF Market Map by signing up below. Stay informed about sustainable aviation fuel developments in Southeast Asia.',
+    blurb: 'Download the APAC SAF Market Map by signing up below.',
+    content:
+      'Explore Tegro’s comprehensive analysis of the Sustainable Aviation Fuel (SAF) market across the Asia Pacific region. This report offers valuable insights into the key components of the SAF supply chain, production pathways, feedstock availability, and the innovative stakeholders driving progress in each country across the region. We believe that by fostering cross-jurisdictional collaboration and investment Asia Pacific can harness the significant growth potential of the transformative SAF industry.',
     link: null, // No link as it has a form instead
     isSpecialForm: true, // Indicates a special form
   },

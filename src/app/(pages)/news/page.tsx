@@ -6,12 +6,12 @@ import { newsArticles } from './newsData';
 import { handleSubscribe } from '../../components/subscribeForm';
 
 export default function NewsPage() {
-  const [expanded, setExpanded] = useState<number | null>(null); 
+  const [expanded, setExpanded] = useState<number>(0);
   const [subscribeModal, setSubscribeModal] = useState<boolean>(false);
   const [email, setEmail] = useState('');
 
   const toggleExpand = (index: number) => {
-    setExpanded(expanded === index ? null : index);
+    setExpanded(expanded === index ? -1 : index);
   };
 
   return (

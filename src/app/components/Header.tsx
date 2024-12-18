@@ -84,7 +84,7 @@ export default function Header() {
       <div className="bg-mainDark py-2 text-center">
         <div className="flex items-center justify-center space-x-4">
           <a href="/news" className="text-sm text-white">
-            Waterfall Finance is now Tegro Commodity Partners
+            Waterfall is now Tegro Commodity Partners
           </a>
         </div>
       </div>

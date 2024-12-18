@@ -1,5 +1,8 @@
+'use client'
+
 import React from 'react';
 import CaseStudyCard from '../../components/built/CaseStudyCards';
+import { useModal } from '../../components/modals/ModalContext';
 
 interface CaseStudy {
   id: string;
@@ -7,6 +10,7 @@ interface CaseStudy {
   blurb: string;
   image: string;
   filters: string;
+  showContactButton?: boolean; // Option to show the button
 }
 
 const caseStudies: CaseStudy[] = [
@@ -61,6 +65,7 @@ const caseStudies: CaseStudy[] = [
     image:
       './caseStudies/Leveraging Risk Transfer Instruments To Promote Innovation Investment.jpg',
     filters: 'Specialized Finance',
+    showContactButton: true,
   },
   {
     id: 'CommercializationPackageToDeployFundingIntoAssetsShareRiskAndImproveContractingOutcomes',
@@ -71,6 +76,7 @@ const caseStudies: CaseStudy[] = [
     image:
       './caseStudies/Commercialization Package to Deploy Funding into Assets, Share Risk and Improve Contracting Outcomes.jpg',
     filters: 'Specialized Finance',
+    showContactButton: true,
   },
   {
     id: 'MobilizingConcessionalAndPrivateCapitalToSupportTheSustainableAviationFuelSAFIndustry',
@@ -81,14 +87,17 @@ const caseStudies: CaseStudy[] = [
     image:
       './caseStudies/Mobilizing Concessional and Private Capital to Support the Sustainable Aviation Fuel (SAF) Industry.jpg',
     filters: 'Specialized Finance',
+    showContactButton: true,
   },
 ];
 
-const CaseStudies: React.FC = () => {
+export default function CaseStudies() {
+  const { currentModal, closeModal, setCurrentModal, additionalData } = useModal();
+
   return (
     <div className="container mx-auto px-4 py-8">
-      <div className=" mx-auto flex max-w-4xl flex-col items-center text-center">
-        <h1 className="py-6 font-palanquinDark text-h5_custom tracking-tight text-mainBlue ">
+      <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
+        <h1 className="py-6 font-palanquinDark text-h5_custom tracking-tight text-mainBlue">
           Case Studies
         </h1>
       </div>
@@ -101,11 +110,15 @@ const CaseStudies: React.FC = () => {
             blurb={study.blurb}
             image={study.image}
             filters={study.filters}
+            showContactButton={study.showContactButton}
+            onContactClick={() =>
+              setCurrentModal('Contact Us', {
+                message: `I would like to learn more about ${study.headline}.`,
+              })
+            }
           />
         ))}
       </div>
     </div>
   );
 };
-
-export default CaseStudies;

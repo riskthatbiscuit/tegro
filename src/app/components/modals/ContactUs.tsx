@@ -76,8 +76,10 @@ export default function ContactUs({prefillMessage=""}) {
         <div className="static px-6">
           <div className="mx-auto">
             <div className="absolute inset-y-0 left-0 -z-10 w-full lg:w-1/2"></div>
-            <h2 className="text-h4_custom md:text-h2_custom font-palanquinDark text-mainBlue">Get in touch</h2>
-            <p className="text-b3_custom text-gray-600 md:my-4 my-2 md:text-b2_custom ">
+            <h2 className="font-palanquinDark text-h4_custom text-mainBlue md:text-h2_custom">
+              Get in touch
+            </h2>
+            <p className="my-2 text-b3_custom text-gray-600 md:my-4 md:text-b2_custom ">
               Send us a message here and we'll get in contact with you
             </p>
           </div>
@@ -166,7 +168,9 @@ export default function ContactUs({prefillMessage=""}) {
                     id="message"
                     rows={3}
                     className="block w-full rounded-md border-0 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-b4_custom sm:leading-4 md:py-2"
-                    defaultValue={additionalData}
+                    defaultValue={
+                      additionalData?.message || prefillMessage || ''
+                    }
                   />
                 </div>
               </div>
@@ -181,9 +185,9 @@ export default function ContactUs({prefillMessage=""}) {
             </div>
           </div>
         </form>
-        <div className="static px-6 h-fit">
+        <div className="static h-fit px-6">
           <div className="mx-auto max-w-xl">
-            <p className="text-b3_custom text-gray-600 md:text-b2_custom mt-2 ">
+            <p className="mt-2 text-b3_custom text-gray-600 md:text-b2_custom ">
               Alternatively, you can send us an email directly:
             </p>
             <dl className="text-base my-2 text-gray-600 md:space-y-4">
