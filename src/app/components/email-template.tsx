@@ -41,10 +41,8 @@ export const EmailTemplate: React.FC<EmailTemplateProps> = ({
           borderRadius: '8px',
         }}
       >
-        <h2 style={{ margin: '0 0 10px 0', fontSize: '24px' }}>TEGRO</h2>
-        <p style={{ margin: '0', fontSize: '18px' }}>
-          STREAMLINING CLIMATE FINANCE
-        </p>
+        <h2 style={{ margin: '0 0 10px 0', fontSize: '24px' }}>TEGRO P</h2>
+
       </div>
       <h1
         style={{

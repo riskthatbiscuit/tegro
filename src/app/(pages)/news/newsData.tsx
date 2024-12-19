@@ -131,6 +131,7 @@ Warm regards,<br/>
 </p>`,
 
     isFullContent: true, // Indicates this article should render inline content
+    pdf: undefined,
   },
   {
     headline: 'APAC SAF Market Map',
@@ -139,6 +140,7 @@ Warm regards,<br/>
       'Explore Tegro’s comprehensive analysis of the Sustainable Aviation Fuel (SAF) market across the Asia Pacific region. This report offers valuable insights into the key components of the SAF supply chain, production pathways, feedstock availability, and the innovative stakeholders driving progress in each country across the region. We believe that by fostering cross-jurisdictional collaboration and investment Asia Pacific can harness the significant growth potential of the transformative SAF industry.',
     link: null, // No link as it has a form instead
     isSpecialForm: true, // Indicates a special form
+    pdf: 'Tegro Commodity Partners - APAC SAF Market Map',
   },
   {
     headline:
@@ -146,5 +148,6 @@ Warm regards,<br/>
     blurb:
       'Discover how Tegro Commodity Partners helped acquire a leading Agtech platform.',
     link: '/about#AcquisitionOfAgtechPlatform',
+    pdf: undefined
   },
 ];

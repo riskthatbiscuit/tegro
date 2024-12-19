@@ -5,6 +5,7 @@ interface NewsCardProps {
   blurb: string;
   link?: string;
   children?: ReactNode; // Optional children prop for custom content
+  pdf?: string;
 }
 
 export default function NewsCard({

@@ -4,6 +4,8 @@ import Hero from './Hero';
 import NewsCard from '../../components/built/NewsCard';
 import { newsArticles } from './newsData';
 import { handleSubscribe } from '../../components/subscribeForm';
+import { Modal } from '../../components/modals/Modal';
+import Subscribe from '../../components/modals/Subscribe';
 
 export default function NewsPage() {
   const [expanded, setExpanded] = useState<number>(0);
@@ -17,12 +19,17 @@ export default function NewsPage() {
   return (
     <div>
       <Hero />
+      {subscribeModal && (
+        <Modal isOpen={subscribeModal} onClose={() => setSubscribeModal(false)}>
+          <Subscribe />
+        </Modal>
+      )}
       <div className="mx-auto space-y-4 px-6 py-2 text-left md:w-2/3">
         {newsArticles.map((article, index) => (
           <div key={index} className="py-2">
             {article.isSpecialForm ? (
               // Special form for APAC SAF Market Map
-              <NewsCard headline={article.headline} blurb={article.blurb}>
+              <NewsCard headline={article.headline} blurb={article.blurb} pdf={article.pdf}>
                 <form
                   className="w-full"
                   onSubmit={(e) =>
@@ -30,7 +37,8 @@ export default function NewsPage() {
                       e,
                       setEmail,
                       setSubscribeModal,
-                      article.headline
+                      article.headline, 
+                      article.pdf
                     )
                   }
                 >
