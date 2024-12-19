@@ -13,9 +13,9 @@ export async function POST(request: NextRequest, response: NextResponse) {
     try {
       const sendEmail = await resend.emails.send({
         from: 'Tegro Partners <alex@tegro.partners>',
-        // to: ['alex@tegro.partners'],
+        to: ['alex@tegro.partners'],
         // to: ['caseymcgrath1000@gmail.com', 'alex@tegro.partners'],
-        to: ['caseymcgrath1000@gmail.com'],
+        // to: ['caseymcgrath1000@gmail.com'],
         subject: `New ${type} request for ${resource}`, // Include resource in the subject
         text: `Email: ${email}\nResource: ${resource}\nType: ${type}`,
         react: EmailTemplate({
