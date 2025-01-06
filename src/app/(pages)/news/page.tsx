@@ -26,10 +26,15 @@ export default function NewsPage() {
       )}
       <div className="mx-auto space-y-4 px-6 py-2 text-left md:w-2/3">
         {newsArticles.map((article, index) => (
-          <div key={index} className="py-2">
+          <div key={index} id={`${article.id}`} className="py-2">
             {article.isSpecialForm ? (
               // Special form for APAC SAF Market Map
-              <NewsCard headline={article.headline} blurb={article.blurb} pdf={article.pdf}>
+              <NewsCard
+                headline={article.headline}
+                blurb={article.blurb}
+                pdf={article.pdf}
+                content={article.content}
+              >
                 <form
                   className="w-full"
                   onSubmit={(e) =>
@@ -37,7 +42,7 @@ export default function NewsPage() {
                       e,
                       setEmail,
                       setSubscribeModal,
-                      article.headline, 
+                      article.headline,
                       article.pdf
                     )
                   }
@@ -96,6 +101,7 @@ export default function NewsPage() {
               <NewsCard
                 headline={article.headline}
                 blurb={article.blurb}
+                content={article.content}
                 link={article.link || ''}
               />
             )}

@@ -132,6 +132,7 @@ Warm regards,<br/>
 
     isFullContent: true, // Indicates this article should render inline content
     pdf: undefined,
+    id: '2024-year-in-review',
   },
   {
     headline: 'APAC SAF Market Map',
@@ -141,6 +142,7 @@ Warm regards,<br/>
     link: null, // No link as it has a form instead
     isSpecialForm: true, // Indicates a special form
     pdf: 'Tegro Commodity Partners - APAC SAF Market Map',
+    id: 'apac-saf-market-map',
   },
   {
     headline:
@@ -148,6 +150,7 @@ Warm regards,<br/>
     blurb:
       'Discover how Tegro Commodity Partners helped acquire a leading Agtech platform.',
     link: '/about#AcquisitionOfAgtechPlatform',
-    pdf: undefined
+    pdf: undefined,
+    id: 'acquisition-of-agtech-platform',
   },
 ];
