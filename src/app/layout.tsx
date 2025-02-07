@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import { ModalProvider } from './components/modals/ModalContext';
 import GridBackground from './components/backgrounds/grid3';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default async function RootLayout({
   children,
