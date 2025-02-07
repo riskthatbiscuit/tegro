@@ -81,13 +81,6 @@ export default function Header() {
           </div>
         </div>
       </nav>
-      <div className="bg-mainDark py-2 text-center">
-        <div className="flex items-center justify-center space-x-4">
-          <a href="/news" className="text-sm text-white">
-            Waterfall is now Tegro Commodity Partners
-          </a>
-        </div>
-      </div>
       <Dialog
         as="div"
         className="lg:hidden"

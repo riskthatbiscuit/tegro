@@ -202,9 +202,9 @@ export default function ContactUs({prefillMessage=""}) {
                 <dd>
                   <a
                     className="text-b2_custom hover:text-gray-900"
-                    href="mailto:alex@tegro.partners"
+                    href="mailto:hello@tegro.partners"
                   >
-                    alex@tegro.partners
+                    hello@tegro.partners
                   </a>
                 </dd>
               </div>

@@ -14,7 +14,7 @@ const features = [
   {
     name: 'Corporate Partnerships',
     description:
-      'The Waterfall model removes the need for high risk, speculative investments. We custom build diversified, high integrity, and tailored platforms that provide operating solutions, sourcing and access to the decarbonization solutions you need. \n \n Our network allows us to bring expert management, capital and support to deliver outcomes at scale.',
+      'The Tegro model removes the need for high risk, speculative investments. We custom build diversified, high integrity, and tailored platforms that provide operating solutions, sourcing and access to the decarbonization solutions you need. \n \n Our network allows us to bring expert management, capital and support to deliver outcomes at scale.',
     imageSrc:
       'https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-02.jpg',
     imageAlt: '',
@@ -22,7 +22,7 @@ const features = [
   {
     name: 'Innovation Sandbox',
     description:
-      'Outsourced Venture\n - We introduce corporations and help to develop ideas that drive industrial decarbonization and operational resilience. From business cases to strategic investment, the Waterfall team makes ideas possible. \n \n Financing Innovation\n - Scoping, building and deploying financing solutions to connect climate-hardware innovation to institutional partners, enable effective collaboration throughout the capital stack, and reduce risk for customers, to achieve scale and commercialization.\n\nTechnology and Data\n - We are building data and technology to underpin market intelligence, advanced risk and impact assessment models and technology that supports transparent, streamlined and efficient investment processes.',
+      'Outsourced Venture\n - We introduce corporations and help to develop ideas that drive industrial decarbonization and operational resilience. From business cases to strategic investment, the Tegro team makes ideas possible. \n \n Financing Innovation\n - Scoping, building and deploying financing solutions to connect climate-hardware innovation to institutional partners, enable effective collaboration throughout the capital stack, and reduce risk for customers, to achieve scale and commercialization.\n\nTechnology and Data\n - We are building data and technology to underpin market intelligence, advanced risk and impact assessment models and technology that supports transparent, streamlined and efficient investment processes.',
     imageSrc:
       'https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-02.jpg',
     imageAlt: '',

@@ -93,9 +93,9 @@ export default function PrivacyPolicy() {
       <br />
       <h3 className="h6">Contacting the Privacy Officer</h3>
       <p>
-        You can contact us by: Mail Waterfall Finance Greenhouse Climate Tech
-        Hub Level 2, Salesforce Tower, 180 George St, Sydney NSW 2000, Australia
-        Email: hello@waterfall.finance
+        You can contact us by: Mail: Tegro Partners, The Executive Centre, Level 15, Grosvenor
+        Place, 225 George Street, Sydney, NSW, 2000, Australia Email:
+        hello@waterfall.finance
       </p>
     </div>
   );

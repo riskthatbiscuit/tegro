@@ -56,7 +56,9 @@ export default function Footer() {
           <h2 className="font-palanquinDark text-h4_custom">Stay informed</h2>
           <form
             className="w-full pb-4"
-            onSubmit={(e) => handleSubscribe(e, setEmail, setSubscribeModal, 'Subscription')}
+            onSubmit={(e) =>
+              handleSubscribe(e, setEmail, setSubscribeModal, 'Subscription')
+            }
           >
             <div className="flex w-full gap-x-4 ">
               <label htmlFor="email-address" className="sr-only">
@@ -90,17 +92,17 @@ export default function Footer() {
             </Modal>
           )}
           <p className="text-b4_custom">
-            Tegro acknowledges the Traditional Owners of the lands that we
-            live and work on, and pay our respects to all First Nations people
-            and Elders past, present and emerging.
+            Tegro acknowledges the Traditional Owners of the lands that we live
+            and work on, and pay our respects to all First Nations people and
+            Elders past, present and emerging.
           </p>
           <p className="text-b4_custom">
-            Waterfall Technologies Pty Ltd (ACN 664 241 052) is a corporate
-            authorised representative (CAR No. 1308778) of Natural Capital
-            Securities Pty Ltd (ACN 642 902 501) (AFSL 525278).
+            Tegro Partners Pty Ltd (ACN 664 241 052) is a corporate authorised
+            representative (CAR No. 1308778) of Natural Capital Securities Pty
+            Ltd (ACN 642 902 501) (AFSL 525278).
           </p>
           <p className="text-b4_custom">
-            &copy; 2024 All Rights Reserved, Waterfall Technologies Pty Ltd.
+            &copy; All rights reserved to Tegro Partners Pty Ltd.
           </p>
         </div>
       </div>

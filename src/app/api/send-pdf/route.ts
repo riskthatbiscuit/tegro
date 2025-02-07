@@ -35,9 +35,9 @@ export async function POST(request: NextRequest, response: NextResponse) {
       const pdfBase64 = pdfBuffer.toString('base64');
 
       const sendEmail = await resend.emails.send({
-        from: 'Tegro Partners <alex@tegro.partners>',
-        to: [email, 'alex@tegro.partners'],
-        // to: ['caseymcgrath1000@gmail.com', 'alex@tegro.partners'],
+        from: 'Tegro Partners <hello@tegro.partners>',
+        to: [email, 'hello@tegro.partners'],
+        // to: ['caseymcgrath1000@gmail.com', 'hello@tegro.partners'],
         // to: ['caseymcgrath1000@gmail.com'],
         subject: `New ${type} request for ${articleHeadline}`, // Include resource in the subject
         text: `Email: ${email}\nResource: ${articleHeadline}\nType: ${type}`,

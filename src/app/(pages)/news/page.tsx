@@ -8,12 +8,18 @@ import { Modal } from '../../components/modals/Modal';
 import Subscribe from '../../components/modals/Subscribe';
 
 export default function NewsPage() {
-  const [expanded, setExpanded] = useState<number>(0);
+  const [expanded, setExpanded] = useState<boolean[]>(
+    newsArticles.map(() => false)
+  );
   const [subscribeModal, setSubscribeModal] = useState<boolean>(false);
   const [email, setEmail] = useState('');
 
   const toggleExpand = (index: number) => {
-    setExpanded(expanded === index ? -1 : index);
+    setExpanded((prev) => {
+      const newExpanded = [...prev];
+      newExpanded[index] = !newExpanded[index]; // Toggle the specific article
+      return newExpanded;
+    });
   };
 
   return (
@@ -82,7 +88,7 @@ export default function NewsPage() {
                   {/* Content Section */}
                   <div
                     className={`space-y-4 overflow-hidden text-b2_custom leading-relaxed transition-all duration-500 ${
-                      expanded === index ? 'max-h-full' : 'max-h-48'
+                      expanded[index] ? 'max-h-full' : 'max-h-48'
                     }`}
                     dangerouslySetInnerHTML={{ __html: article.content }}
                   />
@@ -92,7 +98,7 @@ export default function NewsPage() {
                     onClick={() => toggleExpand(index)}
                     className="mt-4 font-semibold text-mainBlue hover:underline"
                   >
-                    {expanded === index ? 'Read Less' : 'Read More'}
+                    {expanded[index] ? 'Read Less' : 'Read More'}
                   </button>
                 </div>
               </div>
