@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import { ModalProvider } from './components/modals/ModalContext';
 import GridBackground from './components/backgrounds/grid3';
 import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default async function RootLayout({
   children,
@@ -19,12 +19,14 @@ export default async function RootLayout({
           style={{ fontFamily: dm_sans.style.fontFamily, fontWeight: '100' }}
         >
           {/* <GridBackground> */}
-            <Header />
-            <main className="flex min-h-[calc(100vh-180px)] items-start justify-center">
-              {children}
-            </main>
-            <Footer />
+          <Header />
+          <main className="flex min-h-[calc(100vh-180px)] items-start justify-center">
+            {children}
+          </main>
+          <Footer />
           {/* </GridBackground> */}
+          <Analytics />
+          <SpeedInsights />
         </body>
       </html>
     </ModalProvider>
